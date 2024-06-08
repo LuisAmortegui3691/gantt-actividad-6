@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.gantt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.gantt-table th, .gantt-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.gantt-table th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.filled {
+    background-color: #28a745;
+    color: white;
+}
+
+.continuous {
+    background-color: #6c757d;
+    color: white;
+}
